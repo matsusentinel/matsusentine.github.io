@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_aeccc60433377a83cd79583e63de5dc2 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_aeccc60433377a83cd79583e63de5dc2" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_aeccc60433377a83cd79583e63de5dc2 = L.map(
+                "map_aeccc60433377a83cd79583e63de5dc2",
+                {
+                    center: [61.606691, -149.255947],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 10,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_462f4236b2f6d86a6007f3095f982202 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_aeccc60433377a83cd79583e63de5dc2);
+        
+    
+            var marker_a4bd2f4aff6f22a34e997bff86f96564 = L.marker(
+                [61.606691, -149.255947],
+                {}
+            ).addTo(map_aeccc60433377a83cd79583e63de5dc2);
+        
+    
+        var popup_9dc3abf272545edf043c3e452ce8757f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_75ad94efa06957502bab4028e93782e9 = $(`<div id="html_75ad94efa06957502bab4028e93782e9" style="width: 100.0%; height: 100.0%;"><b>Name:</b> Green Forest Drive<br><b>Project:</b> Grading, paving, and related reconstruction of Green Forest Drive, which connects the Palmer Wasilla Highway with Bogard Road.<br><b>Cost:</b> $6.2 million<br><b>Completion Date:</b> 2027</div>`)[0];
+            popup_9dc3abf272545edf043c3e452ce8757f.setContent(html_75ad94efa06957502bab4028e93782e9);
+        
+
+        marker_a4bd2f4aff6f22a34e997bff86f96564.bindPopup(popup_9dc3abf272545edf043c3e452ce8757f)
+        ;
+
+        
+    
+    
+            var marker_309534f431f1ea8808bef75d32fdc1a5 = L.marker(
+                [61.628305, -149.359893],
+                {}
+            ).addTo(map_aeccc60433377a83cd79583e63de5dc2);
+        
+    
+        var popup_2fe9ffed4efe98a694c15cadba339d81 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4888514e4d0a8b03c25b336ed21b3c4f = $(`<div id="html_4888514e4d0a8b03c25b336ed21b3c4f" style="width: 100.0%; height: 100.0%;"><b>Name:</b> Shaw Elementary School<br><b>Project:</b> Traffic and road safety improvements around Shaw Elementary School off Wasilla Fishhook Road. Fixes will include adding school access from East Foxtrot Avenue.<br><b>Cost:</b> $12 million<br><b>Completion Date:</b> 2027</div>`)[0];
+            popup_2fe9ffed4efe98a694c15cadba339d81.setContent(html_4888514e4d0a8b03c25b336ed21b3c4f);
+        
+
+        marker_309534f431f1ea8808bef75d32fdc1a5.bindPopup(popup_2fe9ffed4efe98a694c15cadba339d81)
+        ;
+
+        
+    
+    
+            var marker_7b80391023e23250c97b97bcd31cb6d7 = L.marker(
+                [61.621078, -149.797394],
+                {}
+            ).addTo(map_aeccc60433377a83cd79583e63de5dc2);
+        
+    
+        var popup_207b71e8ca982f508e141702e302bcf1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_75204c30a403b65b7ed39c6b08b574fd = $(`<div id="html_75204c30a403b65b7ed39c6b08b574fd" style="width: 100.0%; height: 100.0%;"><b>Name:</b> King Arthur Drive<br><b>Project:</b> Grading, paving, drainage, and related reconstruction of King Arthur Drive between No Name Hill Drive and the George Parks Highway.<br><b>Cost:</b> $2.1 million<br><b>Completion Date:</b> 2026</div>`)[0];
+            popup_207b71e8ca982f508e141702e302bcf1.setContent(html_75204c30a403b65b7ed39c6b08b574fd);
+        
+
+        marker_7b80391023e23250c97b97bcd31cb6d7.bindPopup(popup_207b71e8ca982f508e141702e302bcf1)
+        ;
+
+        
+    
+    
+            var marker_ea7b15aa20160249cfd97db06342d629 = L.marker(
+                [61.643646, -149.26954],
+                {}
+            ).addTo(map_aeccc60433377a83cd79583e63de5dc2);
+        
+    
+        var popup_0af043def9849ebd4401251a7eba5154 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a00155acfc3eca094be882ba651a9557 = $(`<div id="html_a00155acfc3eca094be882ba651a9557" style="width: 100.0%; height: 100.0%;"><b>Name:</b> Engstrom to Tex Al Drive<br><b>Project:</b> A nearly 1-mile northern extension of Engstrom Road to Tex Al Drive.<br><b>Cost:</b> $6.1 million<br><b>Completion Date:</b> 2027</div>`)[0];
+            popup_0af043def9849ebd4401251a7eba5154.setContent(html_a00155acfc3eca094be882ba651a9557);
+        
+
+        marker_ea7b15aa20160249cfd97db06342d629.bindPopup(popup_0af043def9849ebd4401251a7eba5154)
+        ;
+
+        
+    
+    
+            var marker_2d86c97b703084a42dcc1b7043b621c1 = L.marker(
+                [61.565452, -149.707775],
+                {}
+            ).addTo(map_aeccc60433377a83cd79583e63de5dc2);
+        
+    
+        var popup_f435f75e146349623c77903d83975e98 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_fd7f13e9da7b71dff485712667982cca = $(`<div id="html_fd7f13e9da7b71dff485712667982cca" style="width: 100.0%; height: 100.0%;"><b>Name:</b> Johnson Road<br><b>Project:</b> Upgrades to almost 2 miles of Johnson Road, which stretches from Hollywood Road to the George Parks Highway. Work would include grading, drainage, paving, and shoulder widening.<br><b>Cost:</b> $3.3 million<br><b>Completion Date:</b> 2026</div>`)[0];
+            popup_f435f75e146349623c77903d83975e98.setContent(html_fd7f13e9da7b71dff485712667982cca);
+        
+
+        marker_2d86c97b703084a42dcc1b7043b621c1.bindPopup(popup_f435f75e146349623c77903d83975e98)
+        ;
+
+        
+    
+    
+            var marker_466391abf1bd8e21fb8bb4b9516197de = L.marker(
+                [61.512835, -149.629187],
+                {}
+            ).addTo(map_aeccc60433377a83cd79583e63de5dc2);
+        
+    
+        var popup_87f2a37e4ff290e62dd9380e042c0162 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9b8a2554948013a01ba1cec7bf260d9f = $(`<div id="html_9b8a2554948013a01ba1cec7bf260d9f" style="width: 100.0%; height: 100.0%;"><b>Name:</b> Settlers Bay Drive<br><b>Project:</b> Paving and resurfacing and related improvements on about 1.5 miles of Settlers Bay Drive between Turner Drive and Knik Goose Bay Road.<br><b>Cost:</b> $2.7 million<br><b>Completion Date:</b> 2026</div>`)[0];
+            popup_87f2a37e4ff290e62dd9380e042c0162.setContent(html_9b8a2554948013a01ba1cec7bf260d9f);
+        
+
+        marker_466391abf1bd8e21fb8bb4b9516197de.bindPopup(popup_87f2a37e4ff290e62dd9380e042c0162)
+        ;
+
+        
+    
+    
+            var marker_d45e9bf6ee10f6758d4f224710df3aed = L.marker(
+                [61.615419, -149.361588],
+                {}
+            ).addTo(map_aeccc60433377a83cd79583e63de5dc2);
+        
+    
+        var popup_13a441ecd030f92a6b2a9bf493994107 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_434113ba8615e2126f9276c2183170ef = $(`<div id="html_434113ba8615e2126f9276c2183170ef" style="width: 100.0%; height: 100.0%;"><b>Name:</b> Lakeview Road<br><b>Project:</b> Paving and resurfacing and related improvements on about 1 mile of Lakeview Road, which stretches between Wasilla Fishhook Road and Seldon Road.<br><b>Cost:</b> $920,000.00<br><b>Completion Date:</b> 2026</div>`)[0];
+            popup_13a441ecd030f92a6b2a9bf493994107.setContent(html_434113ba8615e2126f9276c2183170ef);
+        
+
+        marker_d45e9bf6ee10f6758d4f224710df3aed.bindPopup(popup_13a441ecd030f92a6b2a9bf493994107)
+        ;
+
+        
+    
+</script>
+</html>
